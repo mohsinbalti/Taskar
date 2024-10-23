@@ -1,0 +1,155 @@
+.swiper-pagination-bullet {
+  width: 20px !important;
+  height: 6px !important;
+  border-radius: 4px !important;
+  background: #666 !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 40px !important;
+  height: 6px !important;
+  border-radius: 4px !important;
+  background: #fff !important;
+}
+
+.navebar {
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 30px;
+}
+.login-box {
+  width: 380px;
+  max-width: 528px;
+}
+
+@media (max-width: 768px) {
+  .login-box {
+    width: 100%;
+  }
+}
+
+.login-title {
+  font-size: 34px;
+  margin-top: 28px;
+  text-align: center;
+  color: #242424;
+  font-weight: 400;
+}
+.google-button button {
+  background: #ffffff;
+  border: 1px solid #212121;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.login-form button {
+  border-radius: 5px;
+  height: 43px;
+  font-size: 14px;
+  font-weight: 400;
+}
+p.agree-info-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #666666;
+  margin-top: 10px;
+}
+p.agree-info-text a {
+  font-weight: 400;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #4c94ff;
+}
+p.login-info-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+p.login-info-text a {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #4c94ff;
+}
+.google-button p {
+  margin-top: 0px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #212121;
+}
+
+.login-signup-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.taskdetails {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+}
+.taskdetails-sidebar {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  height: fit-content;
+}
+.interest-page-buttons ul {
+  justify-content: center !important;
+}
+
+.progress-circular {
+  height: 146px;
+  width: 146px;
+}
+
+.CircularProgressbar-path {
+  stroke: #6f49fe !important;
+}
+
+.CircularProgressbar-trail {
+  stroke: #fff !important;
+}
+
+@media (max-width: 768px) {
+  /* .body-wrapper { */
+  /* margin-top: 80px !important; */
+  /* } */
+}
+
+@media (max-width: 768px) {
+  .swiper {
+    height: 100% !important;
+  }
+}
+
+.moveUpDown {
+  animation: MoveUpDownAnim 3s linear infinite;
+}
+
+@keyframes MoveUpDownAnim {
+  0%,
+  100% {
+    bottom: 50px;
+  }
+  50% {
+    bottom: 100px;
+  }
+}
+
+.fadeArrow {
+  animation: FadeArrow 3s linear infinite;
+}
+
+@keyframes FadeArrow {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}

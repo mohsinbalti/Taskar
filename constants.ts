@@ -1,0 +1,3 @@
+export const CAPTCHA_KEY = "6LdvmSkqAAAAAN4piAxdYEfyXWhvD3SOzJbz4wsW";
+export const STRIPE_KEY =
+  "pk_live_51PdpbGFaluJelcGPoqtYv6bc8HeA7eTpLOtPrftIzyD9nroiXzwVo8RTYD66lKk2KNoClqnVfS5u62FWzmkR6BvH00tqFAFS7C";
